@@ -1,6 +1,6 @@
 var expect = require('chai').expect
 var codeToTest = require('../index')
-var fib = codeToTest.fib,
+var fib = codeToTest.fib
 
 describe('Fib tests', function() {
     it('should be a number', function() {
