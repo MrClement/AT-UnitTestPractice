@@ -1,7 +1,6 @@
 var expect = require('chai').expect
 var codeToTest = require('../index')
 var fib = codeToTest.fib,
-    fac = codeToTest.fac;
 
 describe('Fib tests', function() {
     it('should be a number', function() {
